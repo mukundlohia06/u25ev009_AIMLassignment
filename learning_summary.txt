@@ -1,0 +1,18 @@
+What I Understood From the Dataset?
+This dataset is designed to help understand and predict the risk of a patient having a stroke based on clinical indicators (age, hypertension, heart disease, average glucose level, BMI) and lifestyle attributes (gender, marriage history, work type, residence, smoking status).
+
+What Challenges I Faced During Analysis?
+Inspecting the dataset reveals that the bmi column has over 200 missing records (NaN values) that was need to be addressed
+
+Which Visualizations Were Most Useful?
+The Correlation Heatmap: This was the best tool to see the big picture. It allowed me to instantly notice that Age is the most central factor driving up BMI, blood pressure, and stroke risks, while also showing that no single variable has an overwhelmingly strong individual link to a stroke.
+
+What Insights I Discovered?
+->Age is the Catalyst: As age increases, health vulnerabilities rise. Age has the highest correlation with hypertension, heart disease, and high BMI.
+->Glucose Spikes Later in Life: Younger populations almost never see high average glucose levels (above 150), whereas abnormal spikes become very common past age 40.
+->No Single Smoking Gun: A stroke isn't caused by just one factor. The low individual correlation scores (around 0.13 to 0.25) suggest that a stroke is a combined result of age, heart health, and glucose levels working together rather than any single metric alone.
+
+What I Learned From EDA and Data Analysis?
+->Finding over 200 missing values in the bmi column taught you that an essential first step in any analysis is recognizing gaps and deciding how to handle them
+->Visualizations Reveal the True Story
+->The heatmap taught you how variables interact. Instead, it is a complex combination of multiple overlapping risks—with Age acting as the primary catalyst that drives up blood pressure, glucose, and overall risk.
